@@ -24,6 +24,8 @@ public class Square2 {
 			
 			//giving the answer
 			System.out.print("The area of your square is: " +  y);
+			
+			
 		}
 		
 		
