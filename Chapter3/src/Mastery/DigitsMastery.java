@@ -11,13 +11,15 @@ public class DigitsMastery {
 			System.out.print("Please enter your three digit number: ");
 			int threedigit = userInput.nextInt();
 			
-			
+			//dividing the number 100 to get a single digit
 			int hundredsplace = threedigit/100;
 			
-			
+			//divide it by 10
 			int tensplace1 = threedigit/10;
 			
+			//multiply tensplace1 by 10
 			int divider = tensplace1 * 10;
+			
 			int onesplace = threedigit - divider;
 			
 			int x = threedigit/10 - onesplace;
