@@ -15,23 +15,23 @@ public class DigitsMastery {
 			int hundredsplace = threedigit/100;
 			
 			//divide it by 10
-			int tensplace1 = threedigit/10;
+
+			//takes the whole number divides it by 10 then takes the remainder
+			int tensplace = threedigit / 10 % 10;
 			
+			int tensplace1 = threedigit/10;
 			//multiply tensplace1 by 10
 			int divider = tensplace1 * 10;
 			
 			int onesplace = threedigit - divider;
 			
-			int x = threedigit/10 - onesplace;
-			
-			int tensplace2 = threedigit/10 - x;
 			
 			System.out.print("Your hundreds place number is ");
 			System.out.println(hundredsplace);
 			
-			//commit to github
+	
 			System.out.print("Your tens place number is ");
-			System.out.println(tensplace2);
+			System.out.println(tensplace);
 
 			
 			System.out.print("Your ones place number is ");
