@@ -75,8 +75,8 @@ public class Election {
 			
 			int totalvotes = totalvotesLeo + totalvotesMia;
 			
-			double percent2 = ((double)totalvotesLeo / totalvotes) * 100 ;
-			double percent1 = ((double)totalvotesMia / totalvotes) * 100;
+			double percent2 = ((double)totalvotesLeo / totalvotes * 100 );
+			double percent1 = ((double)totalvotesMia / totalvotes * 100);
 			
 
 			
