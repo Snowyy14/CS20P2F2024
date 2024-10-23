@@ -2,9 +2,12 @@ package SkillBuilders;
 import java.util.Scanner;
 public abstract class TimeConverter {
 
-	public static void main(String[] args) {
+	static void Method1(String htm); {
+    	if (input ==1) {
+    		System.out.print("You have chosen Hours to Minutes");
+    	}
 
-
+	
 		 try (Scanner userInput = new Scanner(System.in)) {
 			 
 			 Scanner scanner = new Scanner(System.in);
@@ -26,7 +29,8 @@ public abstract class TimeConverter {
 		        	System.out.println("okay");
 		        }
 		        
-		        
+
+		        }
 		 }
 	}
 }
