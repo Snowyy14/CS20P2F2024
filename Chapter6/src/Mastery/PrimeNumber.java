@@ -5,7 +5,7 @@ public class PrimeNumber {
     public static void main(String[] args) {
         try (Scanner userInput = new Scanner(System.in)) {
 
-            //the user inpuut
+            //the user input
             System.out.print("Please enter your number: ");
             int number = userInput.nextInt();
             
