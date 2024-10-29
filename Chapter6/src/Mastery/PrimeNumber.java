@@ -18,7 +18,7 @@ public class PrimeNumber {
         }
     }
 
-    //this is the method to check if its prime
+    //this is the method to check if its prim
     public static boolean isPrime(int number) {
         if (number <= 1) {
             return false;
