@@ -26,7 +26,7 @@ public class AddCoins {
         }
     }
 
-//calling the method for the total from user inpu
+//calling the method for the total from user input
     public static String getDollarAmount(int pennies, int nickels, int dimes, int quarters) {
   
         double total = (pennies * 0.01) + (nickels * 0.05) + (dimes * 0.10) + (quarters * 0.25);

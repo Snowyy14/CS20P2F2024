@@ -29,7 +29,7 @@ public class MetricConversion {
         
         scanner.close();
     }
-    //the men
+    //the menu
     public static void displayMenu() {
         System.out.println("Please choose one of the following conversions");
         System.out.println("1. Inches to Centimeters");
