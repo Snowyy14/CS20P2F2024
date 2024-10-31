@@ -20,7 +20,7 @@ public class AddCoins {
             System.out.print("Enter the number of quaters: ");
             int quarters = scanner.nextInt();
 
-            String totalAmount = getDollarAmount(pennies, nickels, dimes, quarters);
+            String totalAmount = getdollaramount(pennies, nickels, dimes, quarters);
             
             //telling them how much money they have
             System.out.println("You have: " + totalAmount + " dollars");
@@ -28,7 +28,7 @@ public class AddCoins {
     }
 
 //calling the method for the total from user input
-    public static String getDollarAmount(int pennies, int nickels, int dimes, int quarters) {
+    public static String getdollaramount(int pennies, int nickels, int dimes, int quarters) {
   
         double total = (pennies * 0.01) + (nickels * 0.05) + (dimes * 0.10) + (quarters * 0.25);
         
@@ -37,5 +37,4 @@ public class AddCoins {
         
         
         
-}
 }
