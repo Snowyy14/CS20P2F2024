@@ -4,8 +4,9 @@ public class AddCoins {
 
 	//method with user input
     public static void main(String[] args) {
-        try (Scanner scanner = new Scanner(System.in)) {
+        try (Scanner scanner = new Scanner(System.in))  {
 
+        	
         	//asking for the number of coins they have
             System.out.print("Enter the number of pennies: ");
             int pennies = scanner.nextInt();
@@ -23,7 +24,7 @@ public class AddCoins {
             
             //telling them how much money they have
             System.out.println("You have: " + totalAmount + " dollars");
-        }
+      }
     }
 
 //calling the method for the total from user input
@@ -31,7 +32,10 @@ public class AddCoins {
   
         double total = (pennies * 0.01) + (nickels * 0.05) + (dimes * 0.10) + (quarters * 0.25);
         
-     
-        return String.format("$%.2f", total);
-    }
+        return String.format("$" + total);
+        
+        
+        
+        
+}
 }
