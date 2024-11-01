@@ -23,6 +23,7 @@ public class PrimeNumber {
 
     //this is the method to check if its prime
     public static boolean isPrime(int number) {
+<<<<<<< HEAD
     	
     	//checks if the number is 1 or under if it is then its instantly false
         if (number <= 1) {
@@ -41,6 +42,22 @@ public class PrimeNumber {
           }
         }
         //if nothing is found its returned true
+=======
+        if (number <= 1) {
+        	
+        	
+           
+        	return false;
+        	
+       }
+        
+        
+        for (int i = 2; i <= Math.sqrt(number); i++) {
+            if (number % i == 0) {
+                return false;
+          }
+        }
+>>>>>>> refs/remotes/origin/master
         return true;
  }
 }

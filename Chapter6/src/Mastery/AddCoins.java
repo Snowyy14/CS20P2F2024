@@ -37,5 +37,9 @@ public class AddCoins {
         
         
         
+<<<<<<< HEAD
+=======
+}
+>>>>>>> refs/remotes/origin/master
 }
 }
