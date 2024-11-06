@@ -100,4 +100,8 @@ public class MetricConversion {
         double kilo = (kilometers / 1.6);
         System.out.println(kilometers + " kilometers = " + kilo + " miles");
     }
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> branch 'master' of https://github.com/Snowyy14/CS20P2F2024.git
