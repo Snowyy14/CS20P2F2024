@@ -46,8 +46,7 @@ public class MySavings {
 			
 		}
 		
-		public class MySavings {
-			public static void main(String[] args ) {
+		
 				Piggybank piggyBank = new Piggybank();
 				Scanner scanner = new Scanner(System.in);
 				
