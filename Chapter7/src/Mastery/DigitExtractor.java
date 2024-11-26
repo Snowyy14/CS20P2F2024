@@ -66,19 +66,19 @@ public class DigitExtractor {
                             System.out.println(" ");
                             break;
                         case 2:
-                            System.out.println("One's digit: " + numberObj.getOnesDigit());
+                            System.out.println("One's: " + numberObj.getOnesDigit());
                             System.out.println(" ");
                             break;
                         case 3:
-                            System.out.println("Tens place digit: " + numberObj.getTensPlace());
+                            System.out.println("Tens place: " + numberObj.getTensPlace());
                             System.out.println(" ");
                             break;
                         case 4:
-                            System.out.println("Hundreds place digit: " + numberObj.getHundredsPlace());
+                            System.out.println("Hundreds place: " + numberObj.getHundredsPlace());
                             System.out.println(" ");
                             break;
                         case 5:
-                            System.out.println("Exiting... Goodbye!");
+                            System.out.println("exiting...");
                             scanner.close();
                             return;
                         default:
