@@ -26,7 +26,7 @@ public class Palindrome {
 		scanner.close();
 	}
 		public static boolean palindrome(String str) {
-			String cleaned = str.replaceAll("\\s+", ""). toLowerCase();
+			String cleaned = str.replaceAll("", ""). toLowerCase();
 			
 			String reversed = new StringBuilder(cleaned).reverse().toString();
 			return cleaned.equals(reversed);
